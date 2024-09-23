@@ -6,6 +6,11 @@ command laravel queue runner and task schedule runner
 sail artisan schedule:run >> /dev/null 2>&1
 ```
 
+## Task Schedule Test
+```sh
+sail artisan schedule:test
+```
+
 ## Queue
 ```sh
 sail artisan queue:work
